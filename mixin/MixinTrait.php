@@ -30,8 +30,8 @@ trait MixinTrait {
         return $this->_mixin->attach($name, $params);
     }
 
-    public function mixinDetech($name) {
-        return $this->_mixin->detech($name);
+    public function mixinDetach($name) {
+        return $this->_mixin->detach($name);
     }
 
     public function hasMixin($name) {
