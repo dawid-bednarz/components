@@ -14,5 +14,5 @@ interface MixinInterface {
 
     public function mixinAttach($name, $params);
 
-    public function mixinDetech($name);
+    public function mixinDetach($name);
 }
