@@ -1,0 +1,16 @@
+{
+    "name": "dawid-daweb/components",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "daWeb",
+            "email": "dawid@daweb.vdl.pl"
+        }
+    ],
+
+ "autoload": {
+        "psr-4": {
+            "daweb\\mixin\\": "mixin/"
+        }
+    }
+}
