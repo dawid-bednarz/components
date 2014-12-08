@@ -79,7 +79,7 @@ Mixins can be defined in method mixins()
 Helper methods
 ```php
         $object->hasMixin('additional_params'); 
-        $object->mixinDetech('additional_params');
+        $object->mixinDetach('additional_params');
         $object->issetProperty('prop'); //check whether $objec has mixed property
 ```
 
