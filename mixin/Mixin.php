@@ -123,7 +123,7 @@ class Mixin {
      * @param string $name
      * @return boolean
      */
-    public function detech($name) {
+    public function detach($name) {
 
         if (isset($this->owner->_methods[$name])) {
             unset($this->owner->_methods[$name]);
