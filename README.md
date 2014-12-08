@@ -62,6 +62,7 @@ Mixins can be defined in method mixins()
             public function mixins() {
               
                  return [
+                   ['someProp' => 'value'],
                    'additional_params' => [ 
                       'prop' => 'Hello ',
                       'prop2' => 'World',
