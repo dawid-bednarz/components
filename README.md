@@ -53,10 +53,32 @@ When we need mix some class
         ]);
         echo $object->getProp2(); //work
 ```
+Mixins can be defined in method mixins()
+```php
+        class object { 
 
+            use MixinTrait; 
+
+            public function mixins() {
+              
+                 return [
+                   'additional_params' => [ 
+                      'prop' => 'Hello ',
+                      'prop2' => 'World',
+                      'callback' => function($name) {return $name;}
+                   ],
+                   'additional_methods' => [
+                       'class' => 'MyObject', //if you need use constructor pass new MyObject
+                        'prop' => 'work'
+                    ]
+                 ]
+            }
+        }
+```
 Helper methods
 ```php
         $object->hasMixin('additional_params'); 
         $object->mixinDetech('additional_params');
         $object->issetProperty('prop'); //check whether $objec has mixed property
 ```
+
