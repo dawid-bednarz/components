@@ -1,7 +1,7 @@
 components
 ==========
 
-require PHP 5.4 >=
+require PHP >= 5.4 
 
 ### Install 
 in your composer.json
